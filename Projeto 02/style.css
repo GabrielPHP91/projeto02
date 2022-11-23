@@ -18,14 +18,6 @@ body {
   padding-top: 65px;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  margin-bottom: 55px;
-}
-
 ul {
   list-style: none;
   display: flex;
@@ -38,7 +30,10 @@ h1,
 ul {
   font-family: 'Mulish', sans-serif;
 }
-
+nav {
+  display: flex;
+  justify-content: space-between;
+}
 /*pseudo class, hover para transformar a font*/
 ul li a:hover {
   font-weight: bold;
@@ -140,6 +135,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 58px;
 }
 
 #balls {
